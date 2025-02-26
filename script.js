@@ -25,7 +25,7 @@ addBtn.addEventListener("click", function () {
       const id = Date.now();
       const listItem = document.createElement("li");
       listItem.setAttribute("id", id);
-      listItem.innerHTML = `<input type="checkbox" /><span class="item-name">${inputValue}</span><button class="edit-btn">Edit</button><button class="delete-btn">Delete</button>`;
+      listItem.innerHTML = `<span class="item-name">${inputValue}</span><button class="edit-btn">Edit</button><button class="delete-btn">Delete</button>`;
       list.appendChild(listItem);
     }
     inputTask.value = "";
