@@ -15,7 +15,7 @@ A simple To Do List web application built with HTML, CSS, and JavaScript.
 
    ```sh
    git clone git@github.com:abhinavoo7/ToDoList.git
-   cd your-repo-name
+   cd ToDoList
    ```
 
 2. **Open `index.html` in your browser:**
